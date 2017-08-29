@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class LineParser {
+public class LineParser implements ListenerParser{
 
     MessageManager manager;
 
@@ -28,4 +28,8 @@ public class LineParser {
 
     }
 
+    @Override
+    public void parse(String filename) {
+
+    }
 }
